@@ -1,0 +1,48 @@
+.head-line{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center
+}
+.head-line svg{
+    width: 430px
+}
+.menus{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ededed;
+    border-bottom: 2px solid #000;
+    flex-wrap: wrap;
+}
+.menus button{
+    background: none;
+    border: none;
+    margin: 5px;
+}
+.menus button:hover{
+    background-color: beige;
+}
+.new-Img{
+    max-width: 100%;
+    height: auto;
+}
+.search{
+    padding-top: 10px
+}
+#search-Button{
+    background-color: #e5c091;
+    color: white;
+    border: 2px solid #e5c091;
+    border-radius: 3px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+}
+.news{
+    border-bottom: 1px solid #000; 
+    padding: 1em;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
